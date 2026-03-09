@@ -1,0 +1,9 @@
+[package]
+name = "daito-gateway"
+version = "0.1.0"
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde = {workspace = true}
+tokio = {workspace = true}

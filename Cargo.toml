@@ -1,0 +1,23 @@
+[workspace]
+resolver = "3"
+members = ["crates/daito-*"]
+
+[workspace.package]
+license = "zlib"
+edition = "2024"
+
+[workspace.dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+tokio = {
+    version = "1.50.0",
+    features = [
+        "bytes",
+        "io-util",
+        "libc",
+        "mio",
+        "net",
+        "tracing",
+        "sync",
+        "time"
+    ]
+}
