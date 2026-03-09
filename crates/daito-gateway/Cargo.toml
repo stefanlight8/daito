@@ -1,9 +1,11 @@
 [package]
 name = "daito-gateway"
-version = "0.1.0"
+version.workspace = true
 license.workspace = true
 edition.workspace = true
 
 [dependencies]
+futures-util = "0.3.32"
 serde = {workspace = true}
 tokio = {workspace = true}
+tokio-websockets = { version = "0.13.1", features = ["client", "native-tls", "openssl", "rand"] }

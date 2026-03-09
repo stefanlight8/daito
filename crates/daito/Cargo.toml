@@ -1,0 +1,11 @@
+[package]
+name = "daito"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[package.dependencies]
+daito-gateway = {workspace = true, optional = true}
+
+[package.features]
+gateway = ["daito-gateway"]

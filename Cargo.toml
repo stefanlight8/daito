@@ -1,12 +1,14 @@
 [workspace]
 resolver = "3"
-members = ["crates/daito-*"]
+members = ["crates/daito", "crates/daito-*"]
 
 [workspace.package]
-license = "zlib"
+version = "0.1.0"
 edition = "2024"
+license = "zlib"
 
 [workspace.dependencies]
+
 serde = { version = "1.0.228", features = ["derive"] }
 tokio = {
     version = "1.50.0",
