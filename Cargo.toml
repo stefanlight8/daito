@@ -8,6 +8,7 @@ edition = "2024"
 license = "zlib"
 
 [workspace.dependencies]
+daito-gateway = { path = "./crates/daito-gateway" }
 
 serde = { version = "1.0.228", features = ["derive"] }
 tokio = {
