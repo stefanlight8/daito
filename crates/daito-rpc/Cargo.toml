@@ -1,0 +1,8 @@
+[package]
+name = "daito-rpc"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+
+[dependencies]
+tokio = {workspace = true}

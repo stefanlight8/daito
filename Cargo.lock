@@ -61,6 +61,10 @@ checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 [[package]]
 name = "daito"
 version = "0.1.0"
+dependencies = [
+ "daito-gateway",
+ "daito-rpc",
+]
 
 [[package]]
 name = "daito-gateway"
@@ -70,6 +74,13 @@ dependencies = [
  "serde",
  "tokio",
  "tokio-websockets",
+]
+
+[[package]]
+name = "daito-rpc"
+version = "0.1.0"
+dependencies = [
+ "tokio",
 ]
 
 [[package]]

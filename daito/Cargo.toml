@@ -1,0 +1,13 @@
+[package]
+name = "daito"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+
+[dependencies]
+daito-gateway = {workspace = true, optional = true}
+daito-rpc = {workspace = true, optional = true}
+
+[features]
+gateway = ["dep:daito-gateway"]
+rpc = ["dep:daito-rpc"]
