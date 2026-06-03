@@ -5,11 +5,10 @@ members = ["daito", "crates/daito-*"]
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
-license-file = "./LICENSE"
+license = "MIT"
 
 [workspace.dependencies]
-daito-gateway = { path = "./crates/daito-gateway" }
-daito-rpc = {path = "./crates/daito-rpc"}
+daito-api = { path= "./crates/daito-api" }
 
 serde = { version = "1.0.228", features = ["derive"] }
 tokio = {

@@ -1,5 +1,2 @@
-#[cfg(feature = "gateway")]
-pub use daito_gateway as gateway;
-
-#[cfg(feature = "rpc")]
-pub use daito_rpc as rpc;
+#[cfg(feature = "api")]
+pub use daito_api as api;
