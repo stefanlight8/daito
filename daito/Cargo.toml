@@ -1,0 +1,11 @@
+[package]
+name = "daito"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+daito-api = {workspace = true, optional = true}
+
+[features]
+api = ["dep:daito-api"]
