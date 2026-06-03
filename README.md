@@ -9,7 +9,7 @@ Daito is a modular Discord API library built with async/await using [tokio](http
 # Packages
 | Package | Description |
 |---------|-------------|
-| [`daito-gateway`](./crates/daito-gateway) | Implements websocket gateway |
+| [`daito-api`](./crates/daito-api) | Discord API |
 
 # MSRV
 Daito supports Rust 1.94.0 and higher.
