@@ -9,8 +9,10 @@ license = "MIT"
 
 [workspace.dependencies]
 daito-api = { path= "./crates/daito-api" }
+daito-rpc = { path = "./crates/daito-rpc" }
 
 serde = { version = "1.0.228", features = ["derive"] }
+serde_json = { version = "1.0.149" }
 tokio = {
     version = "1.50.0",
     features = [
@@ -24,3 +26,4 @@ tokio = {
         "time"
     ]
 }
+tracing = "0.1.44"

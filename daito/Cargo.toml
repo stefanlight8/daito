@@ -6,6 +6,8 @@ license.workspace = true
 
 [dependencies]
 daito-api = {workspace = true, optional = true}
+daito-rpc = {workspace = true, optional = true}
 
 [features]
 api = ["dep:daito-api"]
+rpc = ["dep:daito-rpc"]
