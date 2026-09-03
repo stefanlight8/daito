@@ -3,3 +3,4 @@ pub mod client;
 pub mod error;
 pub mod pipe;
 pub mod transport;
+pub mod utils;
